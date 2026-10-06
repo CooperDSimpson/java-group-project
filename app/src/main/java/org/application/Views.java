@@ -32,7 +32,7 @@ public final class Views {
     public static void init() {
         for (Class<?> clazz : ClassScanner.getClasses("org.application.views")) {
             try {
-                clazz.getMethod("init").invoke(null);
+                clazz.getMethod("run").invoke(null);
             } catch (Exception e) {
                 throw new RuntimeException(
                         "Failed to initialize " + clazz.getName(), e);

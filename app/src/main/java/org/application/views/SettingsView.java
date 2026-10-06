@@ -11,7 +11,7 @@ public final class SettingsView {
     private SettingsView() {
     }
 
-    public static void init() {
+    public static void run() {
         Label label = new Label("Settings View");
 
         Button backButton = new Button("Back to Main");

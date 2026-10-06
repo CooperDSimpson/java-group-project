@@ -16,7 +16,7 @@ public class State {
         stage = startStage;
 
         Views.init();
-        Views.show("main");
+        Views.show("main"); // sets the starting view to the view class created with the "main" name
         MainLoop.start();
     }
 

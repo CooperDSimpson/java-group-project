@@ -11,7 +11,7 @@ public final class MainView {
     private MainView() {
     }
 
-    public static void init() {
+    public static void run() {
         Label label = new Label("Hello, JavaFX!");
 
         Button button = new Button("Go to Settings");
