@@ -13,6 +13,8 @@ public class App extends Application {
         Label label = new Label("Hello, JavaFX!");
         StackPane root = new StackPane(label);
         Scene scene = new Scene(root, 400, 300);
+        
+        //test from scotty
 
         primaryStage.setTitle("Project App");
         primaryStage.setScene(scene);
