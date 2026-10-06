@@ -10,7 +10,7 @@ repositories {
 
 // Specify your main class (change 'com.example.App' if your package/class name is different)
 application {
-    mainClass = 'org.example.App'
+    mainClass = 'org.application.App'
 }
 
 // Configure JavaFX version and modules you need
