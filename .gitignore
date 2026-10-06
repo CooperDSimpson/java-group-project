@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+
+# IDEs (Eclipse and IntelliJ)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
