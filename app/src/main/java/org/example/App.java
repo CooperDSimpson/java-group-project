@@ -8,7 +8,7 @@ public class App {
         return "Hello America This is Eclipse!";
     }
     
-    //comment
+    //commentj
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
